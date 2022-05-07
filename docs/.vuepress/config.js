@@ -2,6 +2,7 @@ const { defaultTheme } = require('vuepress')
 // const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 const { searchPlugin } = require('@vuepress/plugin-search')
 module.exports = {
+  base: '/sblog/',
   plugins: [
     searchPlugin({
       // 配置项
